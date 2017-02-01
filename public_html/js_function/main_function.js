@@ -3,10 +3,10 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: false,
-        anchors:['firstPage', 'secondPage'],
-        navigation: false,
+        anchors:['home', 'aboutus' , 'ourteam' , 'contactus'],
+        navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
+        navigationTooltips: ['Home', 'About Us' , 'Our Team' , 'Contact Us'],
         showActiveTooltip: false,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
@@ -70,4 +70,6 @@ $(document).ready(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
     });
+    
+    
 });
