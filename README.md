@@ -1,0 +1,2 @@
+# natSolution
+for small busii
