@@ -53,7 +53,7 @@ $(document).ready(function() {
         fixedElements: '#header, .footer',
         responsiveWidth: 0,
         responsiveHeight: 0,
-        responsiveSlides: false,
+        responsiveSlides: true,
 
         //Custom selectors
         sectionSelector: '.section',
