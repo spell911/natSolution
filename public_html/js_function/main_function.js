@@ -70,3 +70,20 @@ $('#media').carousel({
     pause: true,
     interval: false,
 });
+
+//
+//function factiorial() {
+//    var fact = 100;
+//    var out = "";
+//    for (var i = 0; i < fact; i++) {
+//        out += i + "! is " + facto(i) + "<br>";
+//    }
+//    document.getElementById("fac_id").innerHTML = out;
+//}
+//function facto(n) {
+//    var result = 1;
+//    for (var i = 2; i <= n; i++) {
+//        result *= i;
+//    }
+//    return result;
+//}
